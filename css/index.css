@@ -47,6 +47,20 @@ input {
   max-width: 200px;
 }
 
+select {
+  margin: 5px 10px 5px 0;
+  border: 0;
+  padding: 0 10px;
+  height: 36px;
+  display: inline-block;
+  vertical-align: middle;
+  white-space: normal;
+  background: none;
+  background-color: #3cbc8d;
+  color: white;
+  width: 190px;
+}
+
 main {
   display: flex;
   flex-direction: row;
@@ -125,6 +139,18 @@ main {
 
 .fruit_lightbrown {
   background: #cd853f;
+}
+
+.fruit_brown {
+  background: #964B00;
+}
+
+.fruit_pink {
+  background: #FFC0CB;
+}
+
+.fruit_blue {
+  background: #0000FF;
 }
 
 .fruit__info {
