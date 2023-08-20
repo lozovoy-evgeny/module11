@@ -265,9 +265,12 @@ addActionButton.addEventListener('click', () => {
 
   if (newKind == 0) {
     alert('введите название в поле Kind');
+  } else if (isNaN(newKind)) {
+    alert('введите цифры в поле Kind');
   } else if (newColor == 0) {
     alert('Введите цвет в поле Color в формате rgb или уже существующие на экране');
   } else if (newWeiht == 0){
+
     alert('Введите вес в поле Weiht');
   } else {
     fruits.push({"kind": newKind, "color": newColor,  "weight":newWeiht});
